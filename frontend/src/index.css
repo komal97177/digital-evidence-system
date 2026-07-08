@@ -1,0 +1,48 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+@import "./assets/styles/theme.css";
+@import "./assets/styles/components.css";
+
+/* ===========================
+   CSS Variables
+=========================== */
+
+:root {
+    --govt-blue: #0a1a3a;
+    --govt-light-blue: #1a3a6a;
+    --govt-gold: #d4a847;
+    --govt-cream: #f5f0e8;
+    --govt-red: #c41e3a;
+    --govt-green: #2e7d32;
+}
+
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    min-height:100%;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f5f0e8;
+    color:#1f2937;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
